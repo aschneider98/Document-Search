@@ -113,22 +113,3 @@ search_docs(files, searchTerms)
 totalTime = datetime.now() - start
 print()
 print('Duration: {}'.format(totalTime))
-
-# 'e' = 15.59 seconds vs 26 mins 06 seconds
-# 'parallel' = 1 min 20 seconds
-# 'definitelynothere' = 3 mins 33 seconds
-# All three combined = 4 mins 30 secs vs 25 mins 32
-
-# NEW SHIT
-# 'the' = 3:39.74
-# All three combined = 3:38.64
-# 'parallel' = 3:38.25
-# 9 terms = 3:40.03
-# 20 terms: 3:41.71
-
-# EXCEL
-# 3 terms = 32.36
-# 1 uncommon = 32.34
-# 1 common = 32.64
-# 9 terms = 32.52
-# 20 terms = 32.16
